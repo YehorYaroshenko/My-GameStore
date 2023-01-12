@@ -18,3 +18,12 @@
 .header_cart-btn {
    justify-content: flex-end;
 }
+@media screen and (max-width: 450px) {
+   .header {
+      height: 70px;
+      margin-bottom: 0px;
+   }
+   .header_store-title {
+      font-size: 20px;
+   }
+}

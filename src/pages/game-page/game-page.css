@@ -24,3 +24,26 @@
 .secondary-text {
    margin-top: 30px;
 }
+@media screen and (max-width: 1024px) {
+   .game-page_content {
+      display: flex;
+      flex-direction: column;
+   }
+   .game-page_iframe {
+      width: 100%;
+   }
+   .game-page_left {
+      width: 100%;
+   }
+   .game-page_right {
+      width: 100%;
+   }
+   .game-page_right {
+      margin-top: 20px;
+   }
+}
+@media screen and (max-width: 480px) {
+   .game-page_iframe {
+      height: 250px;
+   }
+}

@@ -15,6 +15,7 @@ function GamePage() {
       <div className="game-page_content">
         <div className="game-page_left">
           <iframe
+            className='game-page_iframe'
             width="90%"
             height="400px"
             src={game.video}
@@ -23,7 +24,7 @@ function GamePage() {
           ></iframe>
         </div>
         <div className="game-page_right">
-          <GameCover image={game.image} />
+          <GameCover image={game.image} className="game-page_image"/>
           <p className='game-page_desc'>{game.description}</p>
           <p className="secondary-text">Popular tags for this product:</p>
           {game.genres.map((genre) => (

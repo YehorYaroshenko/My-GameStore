@@ -14,4 +14,23 @@
    font-size: 24px;
    font-weight: bold;
    margin-left: auto;
+   display: flex;
+   align-items: center;
+}
+
+@media screen and (max-width:860px) {
+   .order-item {
+      flex-direction: column;
+   }
+   .order-item_cover {
+      width: 100%;
+      margin: 0 auto;
+   }
+   .order-item_title {
+      margin-top: 10px;
+   }
+   .order-item_price {
+      margin-left: 0;
+      margin-top: 20px;
+   }
 }
